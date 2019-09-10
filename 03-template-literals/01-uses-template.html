@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>01 - Uses Template Literals</title>
+  </head>
+  <body></body>
+
+  <script>
+    const brasil = {
+      live: "São Paulo",
+      love: "Ceará"
+    };
+
+    const text = "Eu moro em " + brasil.live + " e sou apaixonado pelo " + brasil.love + "!";
+
+    const newText = `Eu moro em ${brasil.live} e sou apaixonado pelo ${brasil.love}!`;
+
+    const fruits = "bannana" 
+                    + `\n` 
+                    + "orange" 
+                    + `\n` 
+                    + "apple";
+
+    const newFruits = 
+    `bannana 
+    orange 
+    apple`;
+    
+    console.log(newFruits);
+    // console.log(newText);
+  </script>
+</html>
