@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>03 - const</title>
+</head>
+<body>
+</body>
+
+<script>
+    const secretNumber = 28;
+    
+    const jlo = {
+        name: 'Jessica',
+        age: 48
+    };
+    
+    Object.freeze(jlo); //objeto imutavel
+    
+    jlo.age = 27;
+    
+    console.log(jlo); //48
+</script>
+</html>
